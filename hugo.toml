@@ -10,7 +10,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 sectionPagesMenu = "main"
 
-[Author]
+[author]
     name = "wanwanyi"
     email = "realwanwanyi@gmail.com"
 
