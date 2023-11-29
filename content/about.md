@@ -28,7 +28,7 @@ isCJKLanguage = true
 
 我会尽量保证文章内容不停留在事物的表面、在文章中融入自己的见解。
 
-如果你对文章内容有疑问或是觉得它有可以改进的地方，可以通过电子邮件或 Github Issue 联系我。
+如果你对文章内容有疑问或是觉得它有可以改进的地方，可以通过 [E-mail](mailto:realwanwanyi@gmail.com) 或 [Github Issues](https://github.com/anotherwanwanyi/anotherwanwanyi.github.io/issues) 联系我。
 
 也欢迎普通的读者来信，我会很高兴得知我的文章能对其他人有所帮助。
 
