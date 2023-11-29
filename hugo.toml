@@ -1,6 +1,5 @@
 baseURL = 'https://anotherwanwanyi.github.io/'
 title = "wanwanyi's blog"
-author = "wanwanyi"
 copyright = "© 2023 [wanwanyi](https://github.com/anotherwanwanyi) with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 paginate = 3
 languageCode = "zh-CN"
@@ -10,6 +9,10 @@ enableEmoji = true
 ignoreErrors = ["error-remote-getjson"]
 
 sectionPagesMenu = "main"
+
+[Author]
+    name = "wanwanyi"
+    email = "realwanwanyi@gmail.com"
 
 [params]
 noindex = false
