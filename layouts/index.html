@@ -6,7 +6,7 @@
     {{ range .Pages.ByTitle }}
     <article class="post">
         <header class="post__header">
-            <h2><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> <span class="date">{{ .Date.Format "2006-01-02" }}</span></h1>
+            <h2><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h1>
         </header>
 
         <section class="post__description">
