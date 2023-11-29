@@ -10,16 +10,16 @@ ignoreErrors = ["error-remote-getjson"]
 
 sectionPagesMenu = "main"
 
-[author]
-    name = "wanwanyi"
-    email = "realwanwanyi@gmail.com"
-
 [params]
 noindex = false
 
 [params.theme]
 palette = "catppuccin-mocha"
 mode = "dark-mode"
+
+[params.author]
+name = "wanwanyi"
+email = "realwanwanyi@gmail.com"
 
 # Sidebar: about/bio
 [params.about]
