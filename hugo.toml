@@ -1,0 +1,104 @@
+baseURL = 'https://anotherwanwanyi.github.io/'
+title = "wanwanyi's blog"
+author = "wanwanyi"
+copyright = "© 2023 [wanwanyi](https://github.com/anotherwanwanyi) with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+paginate = 3
+languageCode = "zh-CN"
+DefaultContentLanguage = "zh-cn"
+enableInlineShortcodes = true
+enableEmoji = true
+ignoreErrors = ["error-remote-getjson"]
+
+sectionPagesMenu = "main"
+
+[params]
+noindex = false
+
+[params.theme]
+palette = "catppuccin-mocha"
+mode = "dark-mode"
+
+# Sidebar: about/bio
+[params.about]
+title = "~/blog"
+description = "用于记录我见闻与心得的博客"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/anotherwanwanyi"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-rss"
+title = "RSS"
+url = "https://anotherwanwanyi.github.io/index.xml"
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:realwanwanyi@gmail.com"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    url = "/posts/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 15
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    url = "/about/"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# For hugo >= 0.60.0, enable inline HTML
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup]
+
+  # Table of contents
+  # Add toc = true to content front matter to enable
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

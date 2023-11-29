@@ -1,0 +1,25 @@
+{{ define "main" }}
+    <header class="content__header">
+        <h1>{{ .Title | markdownify }}</h1>
+        {{ .Content }}
+    </header>
+    {{ range .Pages.ByTitle }}
+    <article class="post">
+        <header class="post__header">
+            <h2><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a> <span class="date">{{ .Date.Format "2006-01-02" }}</span></h1>
+        </header>
+
+        <section class="post__description">
+            {{ .Description }}
+        </section>
+    </article>
+    {{ end }}
+    {{ with .Site.GetPage "/posts" }}
+    <ul>
+        {{ range .Pages.ByDate.Reverse.Limit 5 }}
+            {{ .Render "li" }}
+        {{ end }}
+    </ul>
+    {{ end }}
+{{ end }}
+
