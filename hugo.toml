@@ -1,6 +1,6 @@
 baseURL = 'https://anotherwanwanyi.github.io/'
 title = "wanwanyi's blog"
-copyright = "© 2023 [wanwanyi](https://github.com/anotherwanwanyi) with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+copyright = "© 2023 - 2024 [wanwanyi](https://github.com/anotherwanwanyi) with [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
 paginate = 3
 languageCode = "zh-CN"
 DefaultContentLanguage = "zh-cn"
