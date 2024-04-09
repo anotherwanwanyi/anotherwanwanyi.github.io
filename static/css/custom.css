@@ -1,52 +1,57 @@
 /* Override this file to customise the theme's CSS for your site */
 
-code {
-    color: var(--base0B)
+:root {
+  --font-monospace: "Cascadia Mono", "Noto Sans SC", "Noto Sans TC",
+    "Noto Sans JP", monospace;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+code {
+  color: var(--base0B);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-    margin: 1.5rem 0 1.5rem 0;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 .content__header > h1 {
-    margin: 0;
-    font-size: 1.5em
+  margin: 0;
+  font-size: 1.5em;
 }
 
 .post__header > h2 {
-    margin-bottom: 0.5em;
-    font-size: 1.4em
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
 }
 
 .page__body > h1 {
-    font-size: 1.5em
+  font-size: 1.5em;
 }
 
 .content__body > h1 {
-    font-size: 1.5em
+  font-size: 1.5em;
 }
 
 .content__body > h2 {
-    font-size: 1.4em
+  font-size: 1.4em;
 }
 
 .content__body > h3 {
-    font-size: 1.3em
+  font-size: 1.3em;
 }
 
 .content__body > h4 {
-    font-size: 1.2em
+  font-size: 1.2em;
 }
 
 .content__body > h5 {
-    font-size: 1.1em
+  font-size: 1.1em;
 }
 
 .content__body > h6 {
-    font-size: 1em
+  font-size: 1em;
 }
