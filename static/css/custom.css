@@ -7,6 +7,22 @@
 
 code {
   color: var(--base0B);
+  padding: 0.1em 0.3em;
+  border-radius: 0.4em;
+}
+
+.chroma {
+  border-radius: 1em;
+}
+
+.chroma code {
+  padding: 0;
+  border-radius: 0;
+}
+
+.chroma code .line {
+  padding-right: 1.5rem;
+  border-radius: 0;
 }
 
 h1,
