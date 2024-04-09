@@ -22,9 +22,9 @@
         </p>
     {{ end }}
 
-    {{ if and (.Params.toc) (.TableOfContents) }}
-	    <hr>
-	    On this page:
-	    {{ .TableOfContents }}
+    {{ if .TableOfContents }}
+        <hr>
+        On this page:
+        {{ .TableOfContents }}
     {{ end }}
 {{ end }}

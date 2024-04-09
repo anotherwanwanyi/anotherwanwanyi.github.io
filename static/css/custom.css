@@ -72,3 +72,28 @@ h6 {
 .content__body > h6 {
   font-size: 1em;
 }
+
+.aside__about {
+  color: var(--base0E);
+}
+
+.aside__content {
+  color: var(--base0C);
+}
+
+#TableOfContents li {
+  padding: 0.3em 0;
+}
+
+#TableOfContents li::marker {
+  color: var(--base0B);
+  content: "▲ ";
+}
+
+#TableOfContents a {
+  color: var(--base05);
+}
+
+#TableOfContents a:hover {
+  color: var(--hover);
+}

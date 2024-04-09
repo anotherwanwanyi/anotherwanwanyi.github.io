@@ -8,7 +8,7 @@ isCJKLanguage = true
 
 你好，欢迎来访我的博客。
 
-# 关于我
+## 关于我
 
 我是 wanwanyi，有时也叫作 realwanwanyi 或 anotherwanwanyi。
 
@@ -20,7 +20,7 @@ isCJKLanguage = true
 
 ~~btw I use Arch~~
 
-# 关于博客
+## 关于博客
 
 我把这个博客定位为“*记录与分享当下的见闻与心得*”。
 

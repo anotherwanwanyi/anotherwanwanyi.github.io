@@ -77,7 +77,7 @@ unsafe = true
   [markup.tableOfContents]
     startLevel = 2
     endLevel   = 3
-    ordered    = true
+    ordered    = false
 
   [markup.highlight]
     anchorLineNos = false

@@ -6,7 +6,7 @@ tags = ["keyboard"]
 isCJKLanguage = true
 +++
 
-# 问题描述
+## 问题描述
 
 最近我更换了新的键盘，淘宝上买的 [James Donkey A3](https://jamesdonkeylab.com/products/a3)。
 
@@ -15,7 +15,7 @@ isCJKLanguage = true
 
 感觉这个 Bug 很影响我的日常使用体验，于是决定尝试解决。
 
-# 解决过程
+## 解决过程
 
 首先，我觉得这个问题应该是一种通病，所以尝试谷歌搜索 `James Donkey A3 Linux`。
 
@@ -43,7 +43,7 @@ sudo mkinitcpio -P                         # 重新生成所有 initramfs 映像
 
 重启系统，测试，发现已经可以正常使用。
 
-# 总结
+## 总结
 
 这个问题应该不止出现在我的 James Donkey A3 键盘上，其他的一些对 Linux 支持不积极的键盘应该也会有这样的问题。
 
