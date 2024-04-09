@@ -33,7 +33,7 @@ isCJKLanguage = true
 
 参考帖子里他人给出的链接 [ubuntu - How to swap the "fn" use of Function keys on an Apple Keyboard in Linux - Super User](https://superuser.com/questions/79822/how-to-swap-the-fn-use-of-function-keys-on-an-apple-keyboard-in-linux)，我的解决步骤是：
 
-```
+```bash
 sudoedit /etc/modprobe.d/hid_apple.conf    # 在该文件写入 options hid_apple fnmode=2
 
 sudo mkinitcpio -P                         # 重新生成所有 initramfs 映像
