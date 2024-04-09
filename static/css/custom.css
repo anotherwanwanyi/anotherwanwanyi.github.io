@@ -37,6 +37,7 @@ h6 {
 .content__header > h1 {
   margin: 0;
   font-size: 1.5em;
+  color: var(--base0E);
 }
 
 .post__header > h2 {
