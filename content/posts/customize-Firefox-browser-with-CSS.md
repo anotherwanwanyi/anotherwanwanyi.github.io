@@ -30,7 +30,9 @@ isCJKLanguage = true
 
 那么问题来了，什么是`userChrome.css`?
 
-根据 Mozilla 发布的[这篇指南](https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization)：
+~~根据 Mozilla 发布的[这篇指南](https://support.mozilla.org/en-US/kb/contributors-guide-firefox-advanced-customization)：~~
+
+Edit: 我仔细看了一下，发现这篇是 Contributors 写的，应该不算是 *Mozilla 发布*，不过在此处影响不大：
 
 > Firefox’s user interface is built of web-like elements (HTML and XUL elements) and styled using CSS. Users can set Firefox to look for a userChrome.css file at startup, so the rules in the file can restyle various elements of the user interface. For example, custom rules can change colors and sizes of many elements, hide them, or reposition them. 
 
