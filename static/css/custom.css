@@ -5,6 +5,14 @@
     "Noto Sans JP", monospace;
 }
 
+em {
+  color: var(--base08);
+}
+
+strong {
+  color: var(--base0A);
+}
+
 code {
   color: var(--base0B);
   padding: 0.1em 0.3em;
