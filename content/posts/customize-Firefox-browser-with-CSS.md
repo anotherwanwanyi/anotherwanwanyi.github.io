@@ -148,6 +148,6 @@ isCJKLanguage = true
 
 这篇文章我很早就想要整理分享出来，只不过后来忙于折腾些别的东西就把这事给忘了...
 
-前段时间，我平时在使用的 [Floorp](https://github.com/Floorp-Projects/Floorp) 浏览器（基于 Firefox ESR）更新了，结果引入了一些 CSS 相关的 [bug](https://github.com/Floorp-Projects/Floorp/issues/1097)，我花了点时间用前文介绍的方法找到了 bug 的来源，提出了人生第一个被 merge 的 PR（现在回想起来内心还是有点小激动）。
+前段时间，我平时在使用的 [Floorp](https://github.com/Floorp-Projects/Floorp) 浏览器（基于 Firefox ESR）更新了，结果引入了一些 CSS 相关的 [bug](https://github.com/Floorp-Projects/Floorp/issues/1097)，我花了点时间用前文介绍的方法找到了 bug 的来源，提出了人生第一个被 merge 的 [PR](https://github.com/Floorp-Projects/Floorp-core/pull/70)（现在回想起来内心还是有点小激动）。
 
 解决 bug 的时候我才突然想起，“好像我原本打算写一篇关于这个的介绍文章来着”，于是就有了这篇文章。
