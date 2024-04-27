@@ -92,8 +92,10 @@ h6 {
 
 #TableOfContents a {
   color: var(--base05);
+  text-decoration: none;
 }
 
 #TableOfContents a:hover {
   color: var(--hover);
+  text-decoration: underline;
 }
