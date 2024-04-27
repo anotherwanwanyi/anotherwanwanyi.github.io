@@ -44,7 +44,7 @@ isCJKLanguage = true
 
 或者，对于我这样经常同时打开很多网页的人，为了能更好浏览各个标签页，我可以结合插件定制一个垂直标签页栏（插件在这里的作用是初始模板 —— web-like elements provider），然后，既然实现了一个垂直标签页栏，那么水平的垂直标签页便也可以隐藏掉了。
 
-还有，作为一个[猫布奇诺(Catppuccin)](https://github.com/catppuccin)爱好者，我想要在浏览器级别获得配色的一致性，那么用`userChrome.css`去配色也是一个绝佳的选择。
+还有，作为一名[猫布奇诺(Catppuccin)](https://github.com/catppuccin)爱好者，我想要在浏览器级别获得配色的一致性，那么用`userChrome.css`去配色也是一个绝佳的选择。
 
 还有很多其他可以使用`userChrome.css`的情况，任君想象，限于篇幅，不再展开。
 
