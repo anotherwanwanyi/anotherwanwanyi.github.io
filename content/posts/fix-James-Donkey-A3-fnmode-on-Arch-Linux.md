@@ -1,6 +1,6 @@
 +++
-title = 'Fix James Donkey A3 Fnmode on Arch Linux'
-description = 'Arch Linux 下，修复 James Donkey A3 键盘 Fn 键不可用的问题。'
+title = "Fix James Donkey A3 Fnmode on Arch Linux"
+description = "Arch Linux 下，修复 James Donkey A3 键盘 Fn 键不可用的问题。"
 date = 2023-12-16
 tags = ["keyboard"]
 isCJKLanguage = true

@@ -1,6 +1,6 @@
 +++
-title = 'Customize Firefox Browser With CSS'
-description = '使用 userChrome.css 定制 Firefox'
+title = "Customize Firefox Browser With CSS"
+description = "使用 userChrome.css 定制 Firefox"
 date = 2024-04-27
 tags = ["customize", "firefox"]
 isCJKLanguage = true
