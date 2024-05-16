@@ -19,16 +19,16 @@ code {
   border-radius: 0.4em;
 }
 
-.chroma {
+pre {
   border-radius: 1em;
 }
 
-.chroma code {
+pre code {
   padding: 0;
   border-radius: 0;
 }
 
-.chroma code .line {
+pre code .line {
   padding-right: 1.5rem;
   border-radius: 0;
 }
