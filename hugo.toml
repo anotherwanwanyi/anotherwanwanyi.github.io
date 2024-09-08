@@ -9,11 +9,6 @@ ignoreErrors = ["error-remote-getjson"]
 
 sectionPagesMenu = "main"
 
-[pagination]
-  disableAliases = false
-  pagerSize = 3
-  path = 'page'
-
 [params]
 noindex = false
 
